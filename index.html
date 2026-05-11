@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Security Audit</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="audit-dashboard">
+        <header>
+            <div class="header-content">
+                <h1>Security Audit Center</h1>
+                <p>Monitoreo de Infraestructura en Tiempo Real</p>
+            </div>
+            <div class="status-indicator">
+                <div class="pulsing-dot safe"></div>
+                <span>Sistema Seguro</span>
+            </div>
+        </header>
+
+        <div class="stats-row">
+            <div class="stat-box">
+                <h4>Vulnerabilidades</h4>
+                <div class="stat-value">0 <span class="stat-label">Críticas</span></div>
+            </div>
+            <div class="stat-box warning-box">
+                <h4>Intentos Bloqueados</h4>
+                <div class="stat-value text-warning">24 <span class="stat-label">Hoy</span></div>
+            </div>
+            <div class="stat-box">
+                <h4>Nodos Activos</h4>
+                <div class="stat-value">128 <span class="stat-label">Online</span></div>
+            </div>
+        </div>
+
+        <div class="threat-log">
+            <h2>Registro de Actividad Reciente</h2>
+            <div class="log-table">
+                <div class="log-row header">
+                    <div>Tiempo</div>
+                    <div>Evento</div>
+                    <div>IP Origen</div>
+                    <div>Estado</div>
+                </div>
+                <div class="log-row">
+                    <div class="time">14:02:11</div>
+                    <div>Login Exitoso (Admin)</div>
+                    <div class="ip">192.168.1.45</div>
+                    <div class="status-badge success">Permitido</div>
+                </div>
+                <div class="log-row">
+                    <div class="time">13:45:00</div>
+                    <div>Fuerza Bruta Detectada</div>
+                    <div class="ip">45.22.11.90</div>
+                    <div class="status-badge danger">Bloqueado</div>
+                </div>
+                <div class="log-row">
+                    <div class="time">13:10:22</div>
+                    <div>Escaneo de Puertos</div>
+                    <div class="ip">104.28.10.1</div>
+                    <div class="status-badge warning">Mitigado</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
