@@ -1,1 +1,3 @@
-cyber-security-audit-tool
+bin/
+*.log
+.env
